@@ -1,67 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Navbar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to McDonald's</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            background-image: url("still-f86c1c3f46021a6476953f60fd8943b8.webp");
-            font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+            padding: 0;
+            background-color: #f8f8f8;
         }
 
-        .topnav {
-            overflow: hidden;
-
-            #grad1 {
-                height: 200px;
-                background-color: red;
-
-            }
-        }
-
-        .topnav a {
-            float: left;
-            color: black;
+        header {
+            background-color: #c8102e;
+            color: white;
+            padding: 20px;
             text-align: center;
-            padding: 14px 16px;
+        }
+
+        .logo h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
             text-decoration: none;
-            font: size 17px;
         }
 
-        .topnav a:hover {
-            background-color: yellow;
-            color: black;
+        .hero {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
         }
 
-        .topnav a.active {
-            background-color: yellow;
-            color: black;
+        .hero h2 {
+            margin: 0;
+        }
 
+        .hero button {
+            background-color: #c8102e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .featured-items {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .featured-items h2 {
+            margin-bottom: 20px;
+        }
+
+        .item {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .promotions {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff3cd;
+          
+        }
+
+        .promotions h2 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #c8102e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <h1>McDonald's</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="ourlocations.html">Our Locations</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+ >
+            </ul>
+        </nav>
+    </header>
 
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a class="menu.html">Menu</a>
-        <a href="aboutus.html">About_us</a>
-        <a href="ourlocations.html">Our_Locations</a>
-    </div>
-    <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: red;
-            color: white;
-            text-align: center;
-        }
-    </style>
-    <div class="footer">
-        <p> A fan - made site by Yatharth Gawali. </p>
-    </div>
-</html>
+    <main>
+        <section class="hero">
+            <h2>Welcome to McDonald's!</h2>
+            <p>Your favorite meals are just a click away.</p>
+            <button type="button">Order Now</button>
+        </section>
+        
+        <style>
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
+                color: white;
+                text-align: center;
+            }
+        </style>
+        <div class="footer">
+            <p> A fan - made site by Yatharth Gawali. </p>
+        </div>
+    </main>
+    </body>
+    </html>
